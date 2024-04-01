@@ -364,7 +364,7 @@ def OutputHtml(type,view,filter,date):
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="ECharts">
 <title>""" + TitleStr + """</title>
-<script src="echarts.js"></script>
+<script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
 </head>
 <body>
 <div id="main" style="width: 1200px;height:""" + str(filter*60) + """px;"></div>
@@ -494,7 +494,7 @@ def OutputHtml(type,view,filter,date):
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="ECharts">
 <title>""" + TitleStr + """</title>
-<script src="echarts.js"></script>
+<script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
 </head>
 <body>
 <div id="main" style="width: 1200px;height: 700px;"></div>
